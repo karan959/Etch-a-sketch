@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
+body{
+    width: auto;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-image: url(./back.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Rubik Puddles', cursive;
+    color: gold;
+}
+#container {
+    width : 600px;
+    height: 600px;
+    display: grid;
+    border: 5px solid gold;
+    box-shadow: 10px, 20px;
+    border-radius: 5px;
+
+}
+.cell{
+    background-color: #5c868d;
+    border-width: 0,5px;
+    border:  solid;
+    border:  rgb(19, 18, 18);
+}
+
+.slider {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+}
+
+.red, .color, .clear, .random, .black{
+    border: 5px, solid , yellow;
+    box-shadow: 5px, 10px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+button {
+    background-color: transparent;
+    font-size: 25px;
+    font-family: 'Rubik Puddles', cursive;
+    color: gold;
+    font-weight: 700;
+
+}
+.color {
+    background-color: gold;
+    width: 60px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+

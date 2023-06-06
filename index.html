@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Etch a sketch</h1>
+    <div class="slider">
+        <input type="range" min="1" max="100"  value="16" id="gridSize">
+        <label for="grid Size" id="gridLabel">16</label><br>
+        <span>select the grid size</span>
+    </div>
+    <div class="btn">
+        <button class = "clear">Clear button</button>
+        <button class="random">Random color</button>
+        <button class="red">Red</button>
+        <button class="black">Black</button>
+        <input type="color" class="color" >
+
+    </div>
+    
+    
+    <div id ="container"></div>
+
+    
+    <script src="main.js"> </script> 
+</body>
+
+</html>
